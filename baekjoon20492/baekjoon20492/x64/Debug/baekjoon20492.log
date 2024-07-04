@@ -1,0 +1,4 @@
+﻿  baekjoon20492.cpp
+C:\Users\i8768\baekjoon\baekjoon20492\baekjoon20492\baekjoon20492.cpp(8,14): warning C4244: '=': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\i8768\baekjoon\baekjoon20492\baekjoon20492\baekjoon20492.cpp(9,14): warning C4244: '=': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  baekjoon20492.vcxproj -> C:\Users\i8768\baekjoon\baekjoon20492\x64\Debug\baekjoon20492.exe
