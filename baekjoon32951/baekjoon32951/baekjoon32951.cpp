@@ -1,0 +1,10 @@
+﻿#include <iostream>
+using namespace std;
+
+int main()
+{
+	int year;
+	cin >> year;
+	cout << year - 2024;
+	return 0;
+}
