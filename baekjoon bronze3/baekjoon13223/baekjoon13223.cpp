@@ -14,11 +14,8 @@ int main()
 		endHour--;
 		endMin += 60;
 	}
-	if (endHour < startHour) endHour += 24;
+	if (endHour <= startHour) endHour += 24;
 	h = endHour - startHour, m = endMin - startMin, s = endSec - startSec;
-	h = (h == 24 ? 0 : h);
-	m = (m == 60 ? 0 : m);
-	s = (s == 60 ? 0 : s);
 	printf("%02d:%02d:%02d", h, m, s);
 
 	return 0;
